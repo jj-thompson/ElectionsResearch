@@ -1,5 +1,3 @@
-First and final version of this code, as no version control was utilized during production of this code (I was new to this)
-
 The purpose of this project is to find whether the winning candidates in recent elections have won due to a type of voting fraud coined as "differential invalidation" where votes are invalidated systematically to benefit a candidate. 
 
 This project starts with the ElectionResultReader.py file, and creates CSV files by scraping data from the official Venezuelan election results website by parsing through the HTML code on each page that corresponds to a subregion of Venezuela. Then, it outputs a .csv file containing the election results, with columns including: regions and subregions (Estado, Municipio, Parroquia), candidates' count of votes in support, valid vote count, invalid vote count, total votes cast. The .csv files are included as election_data_2012.csv and election_data_2018.csv, for 2012 and 2018 respectively. 
